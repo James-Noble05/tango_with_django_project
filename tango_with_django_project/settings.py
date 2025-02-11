@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['JamesNoble.pythonanywhere.com','127.0.0.1']
 
+LOGIN_URL = '/rango/login/'
 
 # Application definition
 
