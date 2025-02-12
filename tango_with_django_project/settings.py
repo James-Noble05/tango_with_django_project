@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['JamesNoble.pythonanywhere.com','127.0.0.1']
 
 LOGIN_URL = '/rango/login/'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
 # Application definition
 
 INSTALLED_APPS = [
